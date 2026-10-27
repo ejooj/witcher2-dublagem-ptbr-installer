@@ -1,0 +1,42 @@
+DUBLAGEM PT-BR DE THE WITCHER 2: ASSASSINS OF KINGS (projeto de fã, gratuito)
+==========================================================================
+
+O que é: vozes em português do Brasil para os diálogos e as cutscenes do jogo.
+As vozes foram geradas por inteligência artificial (síntese de voz).
+Não é a dublagem oficial e não tem ligação com a CD PROJEKT RED.
+
+Precisa de: The Witcher 2 (Enhanced Edition) instalado pela Steam, com o texto em português:
+  Steam > The Witcher 2 > Propriedades > Idioma > Português (Brasil).
+Espaço livre: cerca de 2 GB no disco do jogo.
+
+---------------------------------------------------------------- WINDOWS
+1. Extraia este pacote numa pasta qualquer.
+2. Abra "Instalar dublagem.exe".
+   O Windows pode mostrar "O Windows protegeu o computador" (editor desconhecido): clique em "Mais informações" >
+   "Executar assim mesmo". Isso aparece em todo programa sem assinatura digital paga.
+3. Confira a pasta do jogo (ela é encontrada sozinha na Steam) e clique em Instalar.
+Para desinstalar: Configurações > Aplicativos > "Dublagem PT-BR de The Witcher 2" > Desinstalar
+(ou abra o instalador de novo e clique em Desinstalar).
+
+---------------------------------------------------------------- LINUX / STEAM DECK (experimental)
+O jogo precisa rodar pelo Proton (a versão de Windows), não pela versão nativa antiga de Linux:
+  Steam > The Witcher 2 > Propriedades > Compatibilidade > "Forçar o uso de uma ferramenta de compatibilidade" (Proton).
+Abra o jogo uma vez até o menu e feche (isso cria a pasta do Proton onde o idioma é configurado).
+Depois, no Steam Deck em modo Desktop ou num PC com Linux:
+1. Extraia este pacote.
+2. Abra um terminal na pasta e rode:   sh instalar-linux.sh
+Para desinstalar:   sh desinstalar-linux.sh
+(ou, sem o pacote:  python3 "<pasta do jogo>/dublagem_ptbr_backup/pacote/linux/dublagem_linux.py" desinstalar)
+
+---------------------------------------------------------------- COMO FUNCIONA (e por que é seguro)
+- As cutscenes NÃO vêm no pacote: o instalador acrescenta a faixa em português às cutscenes que você já tem.
+  Antes de mexer, ele confere que cada cutscene é a original do jogo; depois, confere o resultado. A desinstalação tira
+  a faixa e confere que o arquivo voltou a ser exatamente o original.
+- Se um arquivo que a dublagem troca já tinha sido mudado por outro mod, uma cópia dele fica em
+  <pasta do jogo>/dublagem_ptbr_backup/files e volta no lugar quando você desinstala.
+- O idioma de voz e texto do jogo passa para BR; o anterior é guardado e volta na desinstalação.
+- Não precisa mexer em nada para jogar dublado. Só se um dia quiser jogar em inglês sem desinstalar: no Configurador do jogo, mude a voz e o texto para EN
+  (os diálogos seguem a voz; as cutscenes seguem o texto).
+
+Se algo der errado: Steam > The Witcher 2 > Propriedades > Arquivos instalados > Verificar integridade
+devolve qualquer arquivo original do jogo.
