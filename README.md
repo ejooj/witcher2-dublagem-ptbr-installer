@@ -1,5 +1,11 @@
 # The Witcher 2 – Brazilian Portuguese dub (installer source)
 
+[![Downloads](https://img.shields.io/github/downloads/ejooj/witcher2-dublagem-ptbr-installer/total?label=downloads)](https://github.com/ejooj/witcher2-dublagem-ptbr-installer/releases)
+[![Windows](https://img.shields.io/github/downloads/ejooj/witcher2-dublagem-ptbr-installer/v1.5.4/Witcher2_Dublagem_PTBR_v1.5.4_Windows.zip?label=Windows)](https://github.com/ejooj/witcher2-dublagem-ptbr-installer/releases/download/v1.5.4/Witcher2_Dublagem_PTBR_v1.5.4_Windows.zip)
+[![Linux / Steam Deck](https://img.shields.io/github/downloads/ejooj/witcher2-dublagem-ptbr-installer/v1.5.4/Witcher2_Dublagem_PTBR_v1.5.4_Linux-SteamDeck.zip?label=Linux%20%2F%20Steam%20Deck)](https://github.com/ejooj/witcher2-dublagem-ptbr-installer/releases/download/v1.5.4/Witcher2_Dublagem_PTBR_v1.5.4_Linux-SteamDeck.zip)
+
+**Download:** [latest release](https://github.com/ejooj/witcher2-dublagem-ptbr-installer/releases/latest)
+
 Source code for the installer of the fan-made **Brazilian Portuguese (PT-BR) voice dub** for
 *The Witcher 2: Assassins of Kings* (Steam / GOG, Windows and Linux/Steam Deck via Proton).
 
